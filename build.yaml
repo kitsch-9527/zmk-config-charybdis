@@ -4,5 +4,6 @@ include:
     shield: charybdis_left
   - board: nice_nano//zmk 
     shield: charybdis_right
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk 
     shield: settings_reset
